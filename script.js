@@ -38,7 +38,7 @@ const createCard = (data, container)  => {
       `<div class="wrapper-item"> 
         <div class="card"> 
          <div class="num${index} frontCard">
-            <img class="image" src="./images/work.jpg">
+            <img class="image" src="https://raw.githubusercontent.com/xValeryx/Project-Code-Week/main/Images/work.jpg">
             <h1 class="name">${obj.name}</h1>
             <p class"company">${obj.company.bs} </p>
             <h4 class="email">${obj.email} </h4>
@@ -103,7 +103,7 @@ const newCard = (data) => {
     `<div class="wrapper-item2"> 
         <div class="card"> 
      <div class="num${index} frontCard">
-        <img class="image" src="./images/group.jpg">
+        <img class="image" src="https://raw.githubusercontent.com/xValeryx/Project-Code-Week/main/Images/group.jpg">
         <h1 class="name">${obj.name}</h1>
         <p class"company">${obj.company.bs} </p>
         <h4 class="email">${obj.email} </h4>
